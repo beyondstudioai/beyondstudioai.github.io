@@ -8,6 +8,7 @@
   <meta name="description" content="Official support page for Beyond Studio AI.">
   <style>
     * { box-sizing: border-box; }
+
     body {
       margin: 0;
       background: #0b1020;
@@ -15,15 +16,35 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
       line-height: 1.7;
     }
+
     main {
       max-width: 760px;
       margin: 75px auto;
       padding: 32px;
     }
-    h1 { font-size: 38px; margin-bottom: 8px; }
-    h2 { font-size: 22px; margin-top: 32px; }
+
+    .logo {
+      display: block;
+      width: 120px;
+      height: 120px;
+      object-fit: contain;
+      border-radius: 24px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 38px;
+      margin: 0 0 8px;
+    }
+
+    h2 {
+      font-size: 22px;
+      margin-top: 0;
+    }
+
     p { color: #c6ccdc; }
     a { color: #8eb8ff; }
+
     .card {
       background: #171e32;
       border: 1px solid #303a54;
@@ -31,37 +52,83 @@
       padding: 28px;
       margin-top: 24px;
     }
-    .email { font-size: 18px; overflow-wrap: anywhere; }
-    footer { margin-top: 40px; color: #929bb0; font-size: 13px; }
+
+    .email {
+      font-size: 18px;
+      overflow-wrap: anywhere;
+    }
+
+    footer {
+      margin-top: 40px;
+      color: #929bb0;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        margin: 30px auto;
+        padding: 20px;
+      }
+      h1 { font-size: 30px; }
+      .card { padding: 22px; }
+    }
   </style>
 </head>
 <body>
   <main>
-    <img src="app_icon(3).png" alt="Beyond Studio AI Logo" style="display:block;width:120px;height:120px;object-fit:contain;border-radius:24px;margin-bottom:20px;">
+
+    <!-- Official Beyond Studio AI Logo -->
+    <img
+      src="app_icon%283%29.png"
+      alt="Beyond Studio AI Logo"
+      class="logo"
+    >
+
+    <h1>Beyond Studio AI</h1>
     <p>Official Support Center</p>
 
     <div class="card">
       <h2>Contact Support</h2>
-      <p>Need assistance with your account, video creation,
-      credits, subscriptions, or technical issues?</p>
+
+      <p>
+        Need assistance with your account, video creation,
+        credits, subscriptions, or technical issues?
+      </p>
+
       <p>Contact our support team:</p>
+
       <p class="email">
         <a href="mailto:support.beyondstudioai@gmail.com">
           support.beyondstudioai@gmail.com
         </a>
       </p>
-      <p>Please include a description of your issue and
-      relevant details so we can assist you.</p>
+
+      <p>
+        Please include a description of your issue and
+        relevant details so we can assist you.
+      </p>
     </div>
 
     <div class="card">
       <h2>Helpful Links</h2>
-      <p><a href="privacy-policy.html">Privacy Policy</a></p>
-      <p><a href="terms.html">Terms of Service</a></p>
-      <p><a href="delete-account.html">Account Deletion</a></p>
+
+      <p>
+        <a href="privacy-policy.html">Privacy Policy</a>
+      </p>
+
+      <p>
+        <a href="terms.html">Terms of Service</a>
+      </p>
+
+      <p>
+        <a href="delete-account.html">Account Deletion</a>
+      </p>
     </div>
 
-    <footer>&copy; 2026 Beyond Studio AI. All rights reserved.</footer>
+    <footer>
+      &copy; 2026 Beyond Studio AI. All rights reserved.
+    </footer>
+
   </main>
 </body>
 </html>
